@@ -1,0 +1,29 @@
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Build and distribution artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Runtime and generated data
+monitor_history.json
+*.png
+
+# Testing and coverage caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# perosnal .md
+report/*.md
+*SysBench.md 

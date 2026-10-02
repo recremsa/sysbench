@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sysbench"
+version = "0.1.0"
+description = "A lightweight Linux system performance analyzer and monitoring tool"
+authors = [
+    { name = "Recremsa" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "psutil>=5.9.0",
+    "matplotlib>=3.7.0",
+]
+
+[project.scripts]
+sysbench = "sysbench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sysbench*"]
+exclude = ["tests*", "report*"]
+
+[tool.setuptools.package-data]
+sysbench = ["config.json"]

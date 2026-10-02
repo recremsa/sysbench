@@ -1,0 +1,26 @@
+{
+  "cpu_usage": {
+    "warning": 75,
+    "fail": 90
+  },
+  "memory_usage": {
+    "warning": 75,
+    "fail": 90
+  },
+  "disk_usage": {
+    "warning": 80,
+    "fail": 95
+  },
+  "system_load": {
+    "warning": 1.0,
+    "fail": 1.5
+  },
+  "latency_ms": {
+    "warning": 50,
+    "fail": 100
+  },
+  "packet_loss_percent": {
+    "warning": 1,
+    "fail": 5
+  }
+}
