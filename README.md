@@ -252,8 +252,6 @@ Run the test suite from the repository root:
 ├── .gitignore
 ├── pyproject.toml
 ├── README.md
-├── report/
-│   └── PROJECT_STATUS_REPORT.md
 ├── sysbench/
 │   ├── cli.py
 │   ├── config.json
@@ -282,7 +280,6 @@ Run the test suite from the repository root:
 │   ├── test_plot.py
 │   ├── test_reporting.py
 │   └── test_validation.py
-└── SysBench.md
 ```
 
 ---
